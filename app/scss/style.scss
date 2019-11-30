@@ -12,7 +12,43 @@
     height: 100px;
     align-items: center;
 }
+.header__btn{
+    background-color: #0674ec;
+    margin-left: auto;
+    margin-right: 50px;
+    padding: 5px 18px;
+    border-radius: 26px;
+    a{
+        color: #fff;
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
 
+.header__user{
+    display: flex;
+    align-items: center;
+    margin-left: 28px;
+    a{
+        line-height: 22px;
+    }
+    &-avatar{
+        width: 50px;
+        height: 50px;
+    }
+    &-name{
+        color: #333333;
+    }
+    &-billing{
+        color: #0674ec;
+        font-size: 15px;
+    }
+}
+.header__user-panel{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
 
 .header__bot-inner{
     display: flex;
@@ -50,6 +86,10 @@
         outline: none;
         color: #898f96;
         font-size: 15px;
+        &::placeholder{
+            color: #898f96;
+            font-size: 15px;
+        }
     }
     button{
         position: absolute;
@@ -72,6 +112,7 @@
 .market{
     background-color: #284bce;
     &__inner{
+        position: relative;
         padding: 180px 0 230px;
         text-align: center;
         color: #f3f3f8;
@@ -105,6 +146,65 @@
         & + a{
             margin-left: 25px;
         }
+    }
+}
+.market__search{
+    position: absolute;
+    bottom: -75px;
+    width: 100%;
+    max-width: 1140px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+    &::after,
+    &::before{
+        content: '';
+        background-color: #fff;
+        opacity: 0.5;
+        border-radius: 6px;
+        height: 50px;
+        position: absolute;
+    }
+    &::after{
+        max-width: 1110px;
+        top: -15px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    &::before{
+        max-width: 1080px;
+        top: -30px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    input{
+        max-width: 810px;
+        height: 52px;
+        width: 100%;
+        border-radius: 6px;
+        border: 1px solid #dcdcdc;
+        color: #676767;
+        line-height: 42px;
+        padding: 0 25px;
+        &::placeholder{
+            color: #676767;
+            line-height: 42px;
+        }
+    }
+    button{
+        background-color: #0674ec;
+        border: none;
+        border-radius: 6px;
+        line-height: 42px;
+        width: 223px;
+        height: 55px;
+        margin-left: 22px;
+        color: #fff;
+        cursor: pointer;
+        outline: none;
     }
 }
 
@@ -143,15 +243,3 @@
 
 
 // end profit
-.BG {
-    
-    background-color: rgb(255, 255, 255);
-    
-    position: absolute;
-    left: 780px;
-    top: 1091px;
-    width: 361px;
-    height: 403px;
-    z-index: 692;
-  }
-  
