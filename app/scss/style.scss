@@ -370,28 +370,33 @@
 .featured__slider-indicators {
   display: flex;
 }
-.slick-arrow {
+.featured__title {
+  display: flex;
+  justify-content: space-between;
+}
+.featured__button {
+  width: 110px;
+  height: 45px;
   background-color: $blue;
+  border-radius: 22px;
+}
+.slick-arrow {
+  font-size: 14px;
+  background-color: transparent;
   color: #fff;
   border: none;
-  height: 45px;
-  width: 57px;
-  border-radius: 50px;
   outline: none;
 }
-.slick-prev {
+.slick-prev,
+.slick-next {
+  top: -120px;
   position: absolute;
-  top: -123px;
-  right: 86px;
-  z-index: 2;
+}
+.slick-prev {
+  right: 95px;
 }
 .slick-next {
-  position: absolute;
-  top: -123px;
-  right: 44px;
-  z-index: 1;
-  width: 81px;
-  padding-left: 31px;
+  right: 54px;
 }
 
 // end featured
