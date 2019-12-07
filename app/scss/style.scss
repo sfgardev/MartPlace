@@ -25,6 +25,23 @@
         line-height: 28px;
     }
 }
+.header-icons{
+    position: relative;
+    span{
+        font-family: 'Quicksand', sans-serif;
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        background-color: #ff6a6c;
+        color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 14px;
+        line-height: 22px;
+        top: -14px;
+        left: 11px;
+    }
+}
 .header__notifications-icons{
     li{
         display: inline-block;
@@ -282,16 +299,25 @@
         padding: 120px 0;
     }
 }
+.featured__button{
+    width: 110px;
+    height: 45px;
+    background-color: #7347c1;
+    border-radius: 22px;
+}
 .featured__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #fff;
-    padding: 40px 30px;
+    padding: 35px 30px;
     box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
     border-radius: 4px;
 }
 .featured__slider{
     margin-top: 50px;
     &-item{
-        display: flex;
+        display: flex !important; 
     }
     &-image{
         max-width: 555px;
@@ -305,7 +331,7 @@
     &-content{
         background-color: #fff;
         max-width: 585px;
-        padding: 50px 60px 20px 50px;
+        padding: 50px 60px 0 50px;
         border-radius: 4px;
         box-shadow: 0px 2px 30px 0px rgba(147, 155, 168, 0.1);
     }
@@ -363,6 +389,24 @@
         }
     }
 }
+.slick-arrow{
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: #fff;
+    outline: none;
+}
+.slick-prev,
+.slick-next{
+    position: absolute;
+    top: -115px;
+}
+.slick-prev{
+    right: 95px;
+}
+.slick-next{
+    right: 54px;
+}
 .featured__slider-info{
     display: flex;
     justify-content: space-between;
@@ -371,6 +415,35 @@
 }
 .featured__slider-indicators{
     display: flex;
+    font-size: 15px;
+}
+.featured__slider-price{
+    background-color: $btn;
+    color: #fff;
+    border-radius: 15px;
+    padding: 0 18px;
+    margin-right: 45px;
+}
+.featured__slider-likes{
+    margin-right: 44px;
+    position: relative;
+    &::before{
+        content: "\f08a";
+        position: absolute;
+        color: #7347c1;
+        right: 25px;
+        font-family: 'icomoon';
+    }
+}
+.featured__slider-amount{
+    color: $btn;
+    position: relative;
+    &::before{
+        content: "\f07a";
+        font-family: 'icomoon';
+        position: absolute;
+        right: 33px;
+    }
 }
 
 
