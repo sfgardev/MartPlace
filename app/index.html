@@ -1,200 +1,464 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>MartPlace</title>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/libs.min.css">
-    <link rel="stylesheet" href="css/style.min.css">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/libs.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="header__top">
-            <div class="container">
-                <div class="header__top-inner">
-                    <div class="header__logo">
-                        <a href="#">
-                            <img src="images/logo_1.png" alt="">
-                        </a>
-                    </div>
-                    <div class="header__btn">
-                        <a href="#">Become a Seller</a>
-                    </div>
-                    <ul class="header__notifications-icons">
-                        <li><a class="icon-bell-o" href="#"></a></li>
-                        <li><a class="icon-envelope-o" href="#"></a></li>
-                        <li><a class="icon-shopping-cart" href="#"></a></li>
-                    </ul>
-                    <div class="header__user">
-                        <a class="header__user-avatar" href="#" style="background-image: url(images/avatar.png);"></a>
-                        <div class="header__user-panel">
-                            <a class="header__user-name" href="#">Taofiq Hakim</a>
-                            <a class="header__user-billing" href="#">$20.45</a>
-                        </div>
-                    </div>
-                </div>
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <div class="header__logo">
+              <a href="#">
+                <img src="images/logo_1.png" alt="" />
+              </a>
             </div>
-        </div>
-        <div class="header__bot">
-            <div class="container">
-                <div class="header__bot-inner">
-                    <nav class="menu">
-                        <ul class="menu__list">
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">all products</a></li>
-                            <li><a href="#">wordpress</a></li>
-                            <li><a href="#">festures</a></li>
-                            <li><a href="#">Pages</a></li>
-                        </ul>
-                    </nav>
-                    <div class="header__bot-search">
-                        <form>
-                            <input type="text" placeholder="Search product here..." required>
-                            <button type="submit">
-                                <img src="images/icons/search.png" alt="">
-                            </button>
-                        </form>
-                    </div>
-                </div>
+            <div class="header__btn">
+              <a href="#">Become a Seller</a>
             </div>
+            <ul class="header__notifications-icons">
+              <li><a class="icon-bell-o" href="#"></a></li>
+              <li><a class="icon-envelope-o" href="#"></a></li>
+              <li><a class="icon-shopping-cart" href="#"></a></li>
+            </ul>
+            <div class="header__user">
+              <a
+                class="header__user-avatar"
+                href="#"
+                style="background-image: url(images/avatar.png);"
+              ></a>
+              <div class="header__user-panel">
+                <a class="header__user-name" href="#">Taofiq Hakim</a>
+                <a class="header__user-billing" href="#">$20.45</a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="header__bot">
+        <div class="container">
+          <div class="header__bot-inner">
+            <nav class="menu">
+              <ul class="menu__list">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">all products</a></li>
+                <li><a href="#">wordpress</a></li>
+                <li><a href="#">festures</a></li>
+                <li><a href="#">Pages</a></li>
+              </ul>
+            </nav>
+            <div class="header__bot-search">
+              <form>
+                <input
+                  type="text"
+                  placeholder="Search product here..."
+                  required
+                />
+                <button type="submit">
+                  <img src="images/icons/search.png" alt="" />
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <section class="market">
-        <div class="container">
-            <div class="market__inner">
-                <div class="market__title">
-                    Create Your Own
-                    <span>Digital Product Marketplace</span>
-                </div>
-                <div class="market__text">
-                    MartPlace is the most powerful, & customizable template for Easy Digital Downloads Products
-                </div>
-                <div class="market__links">
-                    <a href="#" class="market__btn active">
-                        View All Products
-                    </a>
-                    <a href="#" class="market__btn">
-                        Popular Products
-                    </a>
-                </div>
+      <div class="container">
+        <div class="market__inner">
+          <div class="market__title">
+            Create Your Own
+            <span>Digital Product Marketplace</span>
+          </div>
+          <div class="market__text">
+            MartPlace is the most powerful, & customizable template for Easy
+            Digital Downloads Products
+          </div>
+          <div class="market__links">
+            <a href="#" class="market__btn active">
+              View All Products
+            </a>
+            <a href="#" class="market__btn">
+              Popular Products
+            </a>
+          </div>
 
-                <div class="market__search">
-                    <form>
-                        <input type="text" placeholder="Search your products..." required>
-                        <select>
-                            <option>All Categories</option>
-                            <option>Popular Products</option>
-                        </select>
-                        <button type="submit">Search Now</button>
-                    </form>
-                </div>
-            </div>
+          <div class="market__search">
+            <form>
+              <input
+                type="text"
+                placeholder="Search your products..."
+                required
+              />
+              <select>
+                <option>All Categories</option>
+                <option>Popular Products</option>
+              </select>
+              <button type="submit">Search Now</button>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="profit">
-        <div class="container">
-            <div class="profit__inner">
-                <div class="profit__item">
-                    <div class="profit__item-image" style="background-image: url(images/profit/profit_1.png);"></div>
-                    <div class="profit__item-title">
-                        Best UX Research
-                    </div>
-                    <div class="profit__item-text">
-                        Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
-                        the mattis, leo quam aliquet diam
-                        congue is laoreet elit metus.
-                    </div>
-                </div>
-                <div class="profit__item">
-                    <div class="profit__item-image" style="background-image: url(images/profit/profit_2.png);"></div>
-                    <div class="profit__item-title">
-                        Fully Responsive
-                    </div>
-                    <div class="profit__item-text">
-                        Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
-                        the mattis, leo quam aliquet diam
-                        congue is laoreet elit metus.
-                    </div>
-                </div>
-                <div class="profit__item">
-                    <div class="profit__item-image" style="background-image: url(images/profit/profit_3.png);"></div>
-                    <div class="profit__item-title">
-                        Buy & Sell Easily
-                    </div>
-                    <div class="profit__item-text">
-                        Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
-                        the mattis, leo quam aliquet diam
-                        congue is laoreet elit metus.
-                    </div>
-                </div>
+      <div class="container">
+        <div class="profit__inner">
+          <div class="profit__item">
+            <div
+              class="profit__item-image"
+              style="background-image: url(images/profit/profit_1.png);"
+            ></div>
+            <div class="profit__item-title">
+              Best UX Research
             </div>
+            <div class="profit__item-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
+              ut scelerisque the mattis, leo quam aliquet diam congue is laoreet
+              elit metus.
+            </div>
+          </div>
+          <div class="profit__item">
+            <div
+              class="profit__item-image"
+              style="background-image: url(images/profit/profit_2.png);"
+            ></div>
+            <div class="profit__item-title">
+              Fully Responsive
+            </div>
+            <div class="profit__item-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
+              ut scelerisque the mattis, leo quam aliquet diam congue is laoreet
+              elit metus.
+            </div>
+          </div>
+          <div class="profit__item">
+            <div
+              class="profit__item-image"
+              style="background-image: url(images/profit/profit_3.png);"
+            ></div>
+            <div class="profit__item-title">
+              Buy & Sell Easily
+            </div>
+            <div class="profit__item-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
+              ut scelerisque the mattis, leo quam aliquet diam congue is laoreet
+              elit metus.
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="featured">
-        <div class="container">
-            <div class="featured__inner">
-                <div class="featured__title title">
-                    Weekly Featured Products
+      <div class="container">
+        <div class="featured__inner">
+          <div class="featured__title title">
+            Weekly Featured Products
+          </div>
+          <div class="featured__slider">
+            <div class="featured__slider-item">
+              <a
+                class="featured__slider-image"
+                style="background-image: url(images/slider.jpg);"
+                href="#"
+              ></a>
+              <div class="featured__slider-content">
+                <div class="featured__slider-title">
+                  One Page Resume Template
                 </div>
-                <div class="featured__slider">
-                    <div class="featured__slider-item">
-                        <a class="featured__slider-image" style="background-image: url(images/slider.jpg);"
-                            href="#"></a>
-                        <div class="featured__slider-content">
-                            <div class="featured__slider-title">
-                                One Page Resume Template
-                            </div>
-                            <div class="featured__slider-user">
-                                <a class="featured__slider-avatar" href="#"
-                                    style="background-image: url(images/slider_ava.png);"></a>
-                                <a class="featured__slider-name" href="#">AazzTech</a>
-                                <a class="featured__slider-platform" href="#">WordPress</a>
-                            </div>
-                            <div class="featured__slider-text">
-                                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
-                                mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra,
-                                justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
-                            </div>
-                            <div class="featured__slider-category">
-                                <a class="featured__slider-link" href="#">website</a>
-                                <a class="featured__slider-link" href="#">plugin</a>
-                                <a class="featured__slider-link" href="#">landing page</a>
-                            </div>
-                            <div class="featured__slider-info">
-                                <div class="featured__slider-indicators">
-                                    <div class="featured__slider-price">
-                                        $10 - $50
-                                    </div>
-                                    <div class="featured__slider-likes">
-                                        46
-                                    </div>
-                                    <div class="featured__slider-amount">
-                                        634
-                                    </div>
-                                </div>
-                                <div class="rateyo"></div>
-                            </div>
-                            
-                                
-                            
-                        </div>
+                <div class="featured__slider-user">
+                  <a
+                    class="featured__slider-avatar"
+                    href="#"
+                    style="background-image: url(images/slider_ava.png);"
+                  ></a>
+                  <a class="featured__slider-name" href="#">AazzTech</a>
+                  <a class="featured__slider-platform" href="#">WordPress</a>
+                </div>
+                <div class="featured__slider-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                  justo ut scelerisque the mattis, leo quam aliquet congue
+                  placerat mi id nisi interdum mollis. Praesent pharetra, justo
+                  ut scelerisque the mattis, leo quam aliquet congue justo ut
+                  scelerisque.
+                </div>
+                <div class="featured__slider-category">
+                  <a class="featured__slider-link" href="#">website</a>
+                  <a class="featured__slider-link" href="#">plugin</a>
+                  <a class="featured__slider-link" href="#">landing page</a>
+                </div>
+                <div class="featured__slider-info">
+                  <div class="featured__slider-indicators">
+                    <div class="featured__slider-price">
+                      $10 - $50
                     </div>
+                    <div class="featured__slider-likes">
+                      46
+                    </div>
+                    <div class="featured__slider-amount">
+                      634
+                    </div>
+                  </div>
+                  <div class="rateyo"></div>
                 </div>
+              </div>
             </div>
+            <div class="featured__slider-item">
+              <a
+                class="featured__slider-image"
+                style="background-image: url(images/slider.jpg);"
+                href="#"
+              ></a>
+              <div class="featured__slider-content">
+                <div class="featured__slider-title">
+                  One Page Resume Template
+                </div>
+                <div class="featured__slider-user">
+                  <a
+                    class="featured__slider-avatar"
+                    href="#"
+                    style="background-image: url(images/slider_ava.png);"
+                  ></a>
+                  <a class="featured__slider-name" href="#">AazzTech</a>
+                  <a class="featured__slider-platform" href="#">WordPress</a>
+                </div>
+                <div class="featured__slider-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                  justo ut scelerisque the mattis, leo quam aliquet congue
+                  placerat mi id nisi interdum mollis. Praesent pharetra, justo
+                  ut scelerisque the mattis, leo quam aliquet congue justo ut
+                  scelerisque.
+                </div>
+                <div class="featured__slider-category">
+                  <a class="featured__slider-link" href="#">website</a>
+                  <a class="featured__slider-link" href="#">plugin</a>
+                  <a class="featured__slider-link" href="#">landing page</a>
+                </div>
+                <div class="featured__slider-info">
+                  <div class="featured__slider-indicators">
+                    <div class="featured__slider-price">
+                      $10 - $50
+                    </div>
+                    <div class="featured__slider-likes">
+                      46
+                    </div>
+                    <div class="featured__slider-amount">
+                      634
+                    </div>
+                  </div>
+                  <div class="rateyo"></div>
+                </div>
+              </div>
+            </div>
+            <div class="featured__slider-item">
+              <a
+                class="featured__slider-image"
+                style="background-image: url(images/slider.jpg);"
+                href="#"
+              ></a>
+              <div class="featured__slider-content">
+                <div class="featured__slider-title">
+                  One Page Resume Template
+                </div>
+                <div class="featured__slider-user">
+                  <a
+                    class="featured__slider-avatar"
+                    href="#"
+                    style="background-image: url(images/slider_ava.png);"
+                  ></a>
+                  <a class="featured__slider-name" href="#">AazzTech</a>
+                  <a class="featured__slider-platform" href="#">WordPress</a>
+                </div>
+                <div class="featured__slider-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                  justo ut scelerisque the mattis, leo quam aliquet congue
+                  placerat mi id nisi interdum mollis. Praesent pharetra, justo
+                  ut scelerisque the mattis, leo quam aliquet congue justo ut
+                  scelerisque.
+                </div>
+                <div class="featured__slider-category">
+                  <a class="featured__slider-link" href="#">website</a>
+                  <a class="featured__slider-link" href="#">plugin</a>
+                  <a class="featured__slider-link" href="#">landing page</a>
+                </div>
+                <div class="featured__slider-info">
+                  <div class="featured__slider-indicators">
+                    <div class="featured__slider-price">
+                      $10 - $50
+                    </div>
+                    <div class="featured__slider-likes">
+                      46
+                    </div>
+                    <div class="featured__slider-amount">
+                      634
+                    </div>
+                  </div>
+                  <div class="rateyo"></div>
+                </div>
+              </div>
+            </div>
+            <div class="featured__slider-item">
+              <a
+                class="featured__slider-image"
+                style="background-image: url(images/slider.jpg);"
+                href="#"
+              ></a>
+              <div class="featured__slider-content">
+                <div class="featured__slider-title">
+                  One Page Resume Template
+                </div>
+                <div class="featured__slider-user">
+                  <a
+                    class="featured__slider-avatar"
+                    href="#"
+                    style="background-image: url(images/slider_ava.png);"
+                  ></a>
+                  <a class="featured__slider-name" href="#">AazzTech</a>
+                  <a class="featured__slider-platform" href="#">WordPress</a>
+                </div>
+                <div class="featured__slider-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                  justo ut scelerisque the mattis, leo quam aliquet congue
+                  placerat mi id nisi interdum mollis. Praesent pharetra, justo
+                  ut scelerisque the mattis, leo quam aliquet congue justo ut
+                  scelerisque.
+                </div>
+                <div class="featured__slider-category">
+                  <a class="featured__slider-link" href="#">website</a>
+                  <a class="featured__slider-link" href="#">plugin</a>
+                  <a class="featured__slider-link" href="#">landing page</a>
+                </div>
+                <div class="featured__slider-info">
+                  <div class="featured__slider-indicators">
+                    <div class="featured__slider-price">
+                      $10 - $50
+                    </div>
+                    <div class="featured__slider-likes">
+                      46
+                    </div>
+                    <div class="featured__slider-amount">
+                      634
+                    </div>
+                  </div>
+                  <div class="rateyo"></div>
+                </div>
+              </div>
+            </div>
+            <div class="featured__slider-item">
+              <a
+                class="featured__slider-image"
+                style="background-image: url(images/slider.jpg);"
+                href="#"
+              ></a>
+              <div class="featured__slider-content">
+                <div class="featured__slider-title">
+                  One Page Resume Template
+                </div>
+                <div class="featured__slider-user">
+                  <a
+                    class="featured__slider-avatar"
+                    href="#"
+                    style="background-image: url(images/slider_ava.png);"
+                  ></a>
+                  <a class="featured__slider-name" href="#">AazzTech</a>
+                  <a class="featured__slider-platform" href="#">WordPress</a>
+                </div>
+                <div class="featured__slider-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                  justo ut scelerisque the mattis, leo quam aliquet congue
+                  placerat mi id nisi interdum mollis. Praesent pharetra, justo
+                  ut scelerisque the mattis, leo quam aliquet congue justo ut
+                  scelerisque.
+                </div>
+                <div class="featured__slider-category">
+                  <a class="featured__slider-link" href="#">website</a>
+                  <a class="featured__slider-link" href="#">plugin</a>
+                  <a class="featured__slider-link" href="#">landing page</a>
+                </div>
+                <div class="featured__slider-info">
+                  <div class="featured__slider-indicators">
+                    <div class="featured__slider-price">
+                      $10 - $50
+                    </div>
+                    <div class="featured__slider-likes">
+                      46
+                    </div>
+                    <div class="featured__slider-amount">
+                      634
+                    </div>
+                  </div>
+                  <div class="rateyo"></div>
+                </div>
+              </div>
+            </div>
+            <div class="featured__slider-item">
+              <a
+                class="featured__slider-image"
+                style="background-image: url(images/slider.jpg);"
+                href="#"
+              ></a>
+              <div class="featured__slider-content">
+                <div class="featured__box">
+                  <div class="featured__slider-title">
+                    One Page Resume Template
+                  </div>
+                </div>
+                <div class="featured__slider-user">
+                  <a
+                    class="featured__slider-avatar"
+                    href="#"
+                    style="background-image: url(images/slider_ava.png);"
+                  ></a>
+                  <a class="featured__slider-name" href="#">AazzTech</a>
+                  <a class="featured__slider-platform" href="#">WordPress</a>
+                </div>
+                <div class="featured__slider-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                  justo ut scelerisque the mattis, leo quam aliquet congue
+                  placerat mi id nisi interdum mollis. Praesent pharetra, justo
+                  ut scelerisque the mattis, leo quam aliquet congue justo ut
+                  scelerisque.
+                </div>
+                <div class="featured__slider-category">
+                  <a class="featured__slider-link" href="#">website</a>
+                  <a class="featured__slider-link" href="#">plugin</a>
+                  <a class="featured__slider-link" href="#">landing page</a>
+                </div>
+                <div class="featured__slider-info">
+                  <div class="featured__slider-indicators">
+                    <div class="featured__slider-price">
+                      $10 - $50
+                    </div>
+                    <div class="featured__slider-likes">
+                      46
+                    </div>
+                    <div class="featured__slider-amount">
+                      634
+                    </div>
+                  </div>
+                  <div class="rateyo"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>

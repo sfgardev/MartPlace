@@ -1,5 +1,9 @@
 $(function(){
 
+
+    $('.featured__slider').slick({
+    });
+
     $(".rateyo").rateYo({
         rating: 4.5,
         starWidth: "13px",
