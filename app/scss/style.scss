@@ -370,8 +370,28 @@
 .featured__slider-indicators {
   display: flex;
 }
-.slick-prev.slick-arrow {
-  content: ;
+.slick-arrow {
+  background-color: $blue;
+  color: #fff;
+  border: none;
+  height: 45px;
+  width: 57px;
+  border-radius: 50px;
+  outline: none;
+}
+.slick-prev {
+  position: absolute;
+  top: -123px;
+  right: 86px;
+  z-index: 2;
+}
+.slick-next {
+  position: absolute;
+  top: -123px;
+  right: 44px;
+  z-index: 1;
+  width: 81px;
+  padding-left: 31px;
 }
 
 // end featured

@@ -2,6 +2,9 @@ $(function(){
 
 
     $('.featured__slider').slick({
+      arrows: true,
+      prevArrow: '<button type="button" class="slick-prev icon-chevron-left"></button>',
+      nextArrow: '<button type="button" class="slick-next icon-chevron-right"></button>',
     });
 
     $(".rateyo").rateYo({
